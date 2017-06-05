@@ -1,5 +1,12 @@
 Versionsgeschichte
 ==================
+2.27.0
+------
+
+Konfiguration
+~~~~~~~~~~~~~
+
+- `GH #1 <https://github.com/viper3400/HomeWeb/issues/1>`_: Die Einstellung *DocumentationLink* wurde so angepasst, dass sie nun auch absolute URL unterstützt. Bisher war hier nur die Angabe eine Adress relative zum aktuellen Kontext möglich. Der Standardwert wurde auf `https://homeweb.readthedocs.io <https://homeweb.readthedocs.io>`_ festgelegt.
 
 2.26.0
 ------
