@@ -1,5 +1,15 @@
 Versionsgeschichte
 ==================
+
+2.28.0
+------
+
+Konfiguration
+~~~~~~~~~~~~~
+
+- MovieMetaEngine wird nun als NuGet Package via nuget.org eingebunden (V1.0.1)
+- Dadurch wird aber der _OfdbWebGateWayParser_ nicht mehr unterstützt und wurde somit aus den Settings entfernt.
+
 2.27.0
 ------
 

@@ -9,5 +9,11 @@ Separation of Libraries
 Access to Videodb
 ~~~~~~~~~~~~~~~~~
 
-Aceess to Ofdb (MovieMetaEngine)
+Access to Ofdb (MovieMetaEngine)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MovieMetaEngine is now available via nuget.org.
+
+.. code-block::
+
+   Install-Package Jaxx.MovieMetaEngine
+
