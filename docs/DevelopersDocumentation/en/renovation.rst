@@ -13,7 +13,7 @@ Access to Ofdb (MovieMetaEngine)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 MovieMetaEngine is now available via nuget.org.
 
-.. code-block::
+.. code-block:: none
 
    Install-Package Jaxx.MovieMetaEngine
 
