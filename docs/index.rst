@@ -8,6 +8,7 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
 * :ref:`Bisherige Dokumentation`
 * :ref:`Versionsgeschichte`
 * :ref:`Developers Documentation`
+* :ref:`Administrators Documentation`
 
 .. _Bisherige Dokumentation:
 
@@ -32,3 +33,10 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
 
    DevelopersDocumentation/en/lastseeninformations
    DevelopersDocumentation/en/renovation.rst
+
+.. _Administrators Documentation:
+.. toctree::
+   :maxdepth: 1
+   :caption: Administrators Documentation
+
+   AdministratorDocumentation/en/install
