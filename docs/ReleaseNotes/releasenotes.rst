@@ -1,6 +1,14 @@
 Versionsgeschichte
 ==================
 
+2.29.0
+------
+
+Konfiguration
+~~~~~~~~~~~~~
+
+- Update diverser NuGet Pakete auf aktuelle Versionen
+
 2.28.0
 ------
 
