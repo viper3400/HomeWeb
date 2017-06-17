@@ -14,9 +14,10 @@ Konfiguration
 
 Konfiguration
 ~~~~~~~~~~~~~
-
-- MovieMetaEngine wird nun als NuGet Package via nuget.org eingebunden (V1.1.0)
-- Dadurch wird aber der *OfdbWebGateWayParser* nicht mehr unterstützt und wurde somit aus den Settings entfernt.
+- MovieMetaEngine
+    - `GH #3 <https://github.com/viper3400/HomeWeb/issues/3>`_,`GH #2 <https://github.com/viper3400/HomeWeb/issues/2>`_:
+    - MovieMetaEngine wird nun als NuGet Package via nuget.org eingebunden (V1.1.0)
+    - Dadurch wird aber der *OfdbWebGateWayParser* nicht mehr unterstützt und wurde somit aus den Settings entfernt.
 
 2.27.0
 ------
