@@ -7,7 +7,7 @@ Versionsgeschichte
 Konfiguration
 ~~~~~~~~~~~~~
 
-- Update diverser NuGet Pakete auf aktuelle Versionen
+- `GH #5 <https://github.com/viper3400/HomeWeb/issues/5>`_: Update diverser NuGet Pakete auf aktuelle Versionen
 
 2.28.0
 ------
