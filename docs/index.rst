@@ -27,6 +27,7 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
    ReleaseNotes/releasenotes
 
 .. _Developers Documentation:
+
 .. toctree::
    :maxdepth: 1
    :caption: Developers Documentation
