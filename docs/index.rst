@@ -33,6 +33,7 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
 
    DevelopersDocumentation/en/lastseeninformations
    DevelopersDocumentation/en/renovation.rst
+   DevelopersDocumentation/en/extendedcommands.rst
 
 .. _Administrators Documentation:
 .. toctree::
