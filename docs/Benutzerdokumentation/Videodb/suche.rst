@@ -49,4 +49,84 @@ Mit ExtendendCommands können per Suchanfrage komplexere, im Code definierte Abf
 werden. ExtendedCommands unterscheiden sich von normalen Abfragen durch die vorangestellten 2-
 fachen Doppelpunkte (::). ExtendedCommands können aus dem Suchfeld der Webanwendung heraus
 oder über die JSON API angerufen werden.
+
 Es werden folgende Kommandos unterstützt:
+
+SURPRISE
+^^^^^^^^
+
+*::SURPRISE X* liefert einen Anzahl X an zufälligen
+,,Überraschungsfilmen” zurück. Ist der Wert für X leer oder ungültig
+wird nur ein Film zurückgegeben, als ob ::SURPRISE 1 eingegeben worden
+wäre. Mit *::SURPRISE x;SEEN* bzw. *::SURPRISE x;NOT SEEN* kann
+zusätzlich ein Filter angegeben werden, mit dem Zufallsfilme aus bereits
+gesehenen oder aber aus den noch nicht gesehenen Filmen gesetzt werden
+kann.
+
+3D
+^^
+
+*::3D* liefert eine Liste aller 3D-Filme zurück.
+
+DURATION100
+^^^^^^^^^^^
+
+*::DURATION100* liefert eine Liste aller Filme zurück, die eine maximale
+Laufzeit von 100 Minuten haben.
+
+DURATION\_UNDER
+^^^^^^^^^^^^^^^
+
+*::DURATION\_UNDER X* liefert eine Liste aller Filme zurück, deren
+Laufzeit unter X Minuten liegt (zum Beispiel ::DURATION\_UNDER 90).
+
+ACTOR
+^^^^^
+
+*::ACTOR Name* liefert eine Liste aller Filme, in der der mit dem Namen
+gesuchte Schauspieler mitwirkt (zum Beispiel ::ACTOR Justin Timberlake).
+
+SHOW
+^^^^
+
+*::SHOW TOWATCH* liefert eine Liste aller Filme, die der aktuelle
+Benutzer zur Wiederansicht markiert hat. *::SHOW FAV* liefert eine Liste
+mit Filmen, die der aktuelle Benutzer als Favorit markiert hat.
+
+.. _Extendend Command Genre:
+GENRE
+^^^^^
+
+Dem ExtendedCommand *::GENRE* muss ein Leerschlag und eines (oder mehrere) der unten aufgelisteten verfügbaren Genres folgen. Mehrere Genre sind durch ein Semikolon zu trennen. Werden mehrere Genres gesucht, so besteht zwischen den einzelnen Gneres eine UND-Verknüpfung.
+
+Beispiel ::GENRE Action
+Beispiel ::GENRE Drama;Romance
+
+Da unter Umständen eine höhere Anzahl an Ergebnissen gefunden wird, kann diese Abfrage etwas Zeit beanspruchen.
+
+- Action
+- Adventure
+- Animation
+- Comedy
+- Crime
+- Documentary
+- Drama
+- Family
+- Fantasy
+- Film-Noir
+- Horror
+- Musical
+- Mystery
+- Romance
+- Sci-Fi
+- Short
+- Thriller
+- War
+- Western
+- Adult
+- Music
+- Biography
+- History
+- Sport
+- Gay
+

@@ -1,6 +1,18 @@
 Versionsgeschichte
 ==================
 
+2.30.0
+------
+
+VideoDb
+~~~~~~~
+
+- `GH 9 <https://github.com/viper3400/HomeWeb/issues/9>`_: VideoDbNetStandard Bibilothek integriert.
+    - Die Titelsuche (via WebUI und via JSON API laufen nun über diese Bibilothek
+    - In diesem Zusammenhang wurde das neue ExtendedCommand ::GENRE eingeführt
+    - :ref:`Extendend Command Genre`
+- `GH 10 <https://github.com/viper3400/HomeWeb/issues/10>`_: Abhängigkeit zu LibJVideoDB entfernt.
+
 2.29.0
 ------
 
