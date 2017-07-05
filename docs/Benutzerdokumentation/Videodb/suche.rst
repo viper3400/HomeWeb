@@ -93,14 +93,14 @@ SHOW
 Benutzer zur Wiederansicht markiert hat. *::SHOW FAV* liefert eine Liste
 mit Filmen, die der aktuelle Benutzer als Favorit markiert hat.
 
-.. _Extendend Command Genre:
+.. _extendend_command_genre:
 GENRE
 ^^^^^
 
 Dem ExtendedCommand *::GENRE* muss ein Leerschlag und eines (oder mehrere) der unten aufgelisteten verfügbaren Genres folgen. Mehrere Genre sind durch ein Semikolon zu trennen. Werden mehrere Genres gesucht, so besteht zwischen den einzelnen Gneres eine UND-Verknüpfung.
 
-Beispiel ::GENRE Action
-Beispiel ::GENRE Drama;Romance
+* Beispiel ::GENRE Action
+* Beispiel ::GENRE Drama;Romance
 
 Da unter Umständen eine höhere Anzahl an Ergebnissen gefunden wird, kann diese Abfrage etwas Zeit beanspruchen.
 

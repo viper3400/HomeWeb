@@ -9,7 +9,7 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
 
 .. toctree::
    :maxdepth: 1
-   :caption: _Benutzer Dokumentation
+   :caption: Benutzer Dokumentation
 
    Benutzerdokumentation/Videodb/suche
 
@@ -22,6 +22,10 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
    HomeWeb
 
 .. _Versionsgeschichte:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Versionsgeschichte
 
    ReleaseNotes/releasenotes
 
