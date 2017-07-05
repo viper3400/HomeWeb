@@ -5,12 +5,15 @@ HomeWeb Handbuch
 
 Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentation` komplett übernommen, wird aber dort nicht mehr weitergeführt. Änderungen werden nach und nach ins neue Dokumentationsformat übertragen. Die :ref:`Versionsgeschichte` wird separat weitergeführt.
 
-* :ref:`Bisherige Dokumentation`
-* :ref:`Versionsgeschichte`
-* :ref:`Developers Documentation`
-* :ref:`Administrators Documentation`
+.. _Benutzer Dokumentation:
 
-.. _Bisherige Dokumentation:
+.. toctree::
+   :maxdepth: 1
+   :caption: _Benutzer Dokumentation
+
+   Benutzerdokumentation/Videodb/suche
+
+.. _Vohergende Dokumentation:
 
 .. toctree::
    :maxdepth: 1
@@ -19,10 +22,6 @@ Die bisherige PDF Dokumentation wurde unter dem Punkt :ref:`Bisherige Dokumentat
    HomeWeb
 
 .. _Versionsgeschichte:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Versionsgeschichte
 
    ReleaseNotes/releasenotes
 
