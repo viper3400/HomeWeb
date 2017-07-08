@@ -3,14 +3,7 @@ Versionsgeschichte
 
 2.31.0
 ------
-
-VideoDb
-~~~~~~~
-
-- `GH #11 <https://github.com/viper3400/HomeWeb/issues/11>`_: Bugfix
-    - Wenn ein Record auf der Datenbank keine IMGURL hinterlegt hatte, brach das Herunterladen der Cover an dieser Stelle ab.
-- `GH #14 <https://github.com/viper3400/HomeWeb/issues/14>`_: Erweiterung
-    - Ist eine Berwertung auf der Datenbank verfügbar, so wird dies in der Suchliste in den Filmdetails hinter Laufzeit und Genres angzeigt.
+- `siehe GitHub Milestone <https://github.com/viper3400/HomeWeb/milestone/5?closed=1>`_
 
 2.30.0
 ------
