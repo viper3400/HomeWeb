@@ -26,3 +26,6 @@ NodaTimeLastSeenSentenceProvider
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 While basic .NET TimeSpan functions just offer difference in days this implementation uses `NodaTime <http://nodatime.org/>`_ to convert days into years and days.
 
+View Group
+----------
+A view group is a group of one ore more video db users wich are used to view movies together. Movies are markes as seen for a view group and not for a single user. For now, a user can have only one view group.
