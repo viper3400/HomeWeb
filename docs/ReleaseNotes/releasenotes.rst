@@ -1,6 +1,10 @@
 Versionsgeschichte
 ==================
 
+2.32.2
+------
+- `siehe GitHub Milestone <https://github.com/viper3400/HomeWeb/milestone/8?closed=1>`_
+
 2.31.1
 ------
 - `siehe GitHub Milestone <https://github.com/viper3400/HomeWeb/milestone/7?closed=1>`_
