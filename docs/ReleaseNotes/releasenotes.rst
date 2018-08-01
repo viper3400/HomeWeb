@@ -1,6 +1,12 @@
 Versionsgeschichte
 ==================
 
+2.33.0
+------
+
+- Wenn der VueController aufgerufen wird, so wird im SessionStorage eine Objekt mit dem Schlüssel "CurrentHomeWebUser" abgelegt.
+    - Der Wert ist ein JsonString, der im Key "name" den aktuellen Namen des HomeWeb Benutzers und im Key "viewgroup" die aktuelle ViewGroup des Nutzer enthält.
+
 2.32.2
 ------
 - `siehe GitHub Milestone <https://github.com/viper3400/HomeWeb/milestone/8?closed=1>`_
